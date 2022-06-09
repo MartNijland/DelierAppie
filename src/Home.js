@@ -15,6 +15,7 @@ const Home = () => {
   console.log('-------');
   console.log(loaded, error);
 
+  
   if (!loaded) {
     return null;
   }
